@@ -1,0 +1,16 @@
+objAu={
+    
+}
+{
+    let ratings = []
+    ids = [1,2,3,4,5,6,7,8,9];
+    ids.forEach(x => ratings.append(rp('www.google.com/' +x)));
+    Promise.all(ratings).then((dataArray) => )
+}
+
+req
+const promise = new Promise(resolve){
+    http.get(url,(res)=>{
+
+    })
+}.then
