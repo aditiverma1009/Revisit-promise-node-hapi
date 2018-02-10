@@ -1,0 +1,17 @@
+{
+  "name": "hapihapi",
+  "version": "1.0.0",
+  "main": "handling.js",
+  "scripts": {
+    "test": "handling.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^16.6.2",
+    "inert": "^4.2.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "description": ""
+}
