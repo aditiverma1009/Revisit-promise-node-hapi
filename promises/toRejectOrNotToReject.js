@@ -1,11 +1,10 @@
-//unresolved
-const promise=new Promise(resolve,reject){
-    resolve('I FIRED');
-    reject('I DID NOT FIRE');
-}
+// unresolved
+const promise = new Promise((resolve, reject) => {
+  resolve('I FIRED');
+  reject(new Error('I DID NOT FIRE'));
+});
 
-function onRejected(){
-    const err=new Error('error');
-    console.log(er);
+function onRejected(error) {
+  console.log(error.message);
 }
-promise.then(console.log,onRejected);
+promise.then(console.log, onRejected);
