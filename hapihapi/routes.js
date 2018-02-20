@@ -8,7 +8,7 @@ function handlerFn(request, response) {
 
 server.connection({
   host: 'localhost',
-  port: Number(process.argv[2] || 8080),
+  port: Number(process.argv[2] || 8082),
 });
 
 server.route({

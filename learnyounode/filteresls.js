@@ -8,7 +8,6 @@ const dirFiles = (argDir, fileExt) => {
     }
     // console.log(argDir);
     // console.log(fileExt);
-
     const fileExtList = fileArr.filter(fileName => path.extname(fileName) === `.${fileExt}`);
     for (let i = 0; i < fileExtList.length; i += 1) {
       console.log(fileExtList[i]);
